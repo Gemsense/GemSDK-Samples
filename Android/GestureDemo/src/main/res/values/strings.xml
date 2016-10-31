@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Gesture demo</string>
+    <string name="btn_reconnect">Reconnect</string>
+</resources>

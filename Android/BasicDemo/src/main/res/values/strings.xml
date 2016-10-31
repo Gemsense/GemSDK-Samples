@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Basic demo</string>
+    <string name="btn_reconnect">reconnect</string>
+    <string name="tap_to_calibrate">Tap to calibrate</string>
+    <string name="btn_about">Info</string>
+
+    <string name="no_data">Undefined</string>
+    <string name="service_version_label">Service version:</string>
+    <string name="sdk_version_label">GemSDK version</string>
+    <string name="gem_address_label">Gem address:</string>
+    <string name="fw_revision_label">Gem firmware:</string>
+    <string name="title_info">Info</string>
+</resources>

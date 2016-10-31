@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Steps count"
+            android:layout_gravity="center_horizontal"
+            style="@style/AppTheme.SubHeader"
+            />
+
+        <TextView android:id="@+id/steps_count"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="9999"
+            style="@style/AppTheme.Value"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Distance"
+            style="@style/AppTheme.SubHeader"
+            />
+
+        <TextView android:id="@+id/distance"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="0 m"
+            style="@style/AppTheme.Value"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Walk time"
+            style="@style/AppTheme.SubHeader"
+            />
+
+        <TextView android:id="@+id/walk_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="00:00"
+            style="@style/AppTheme.Value"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Avg. speed"
+            android:layout_gravity="center_horizontal"
+            style="@style/AppTheme.SubHeader"
+            />
+
+        <TextView android:id="@+id/avg_speed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="0 km/h"
+            style="@style/AppTheme.Value"
+            />
+
+    </LinearLayout>
+</merge>
