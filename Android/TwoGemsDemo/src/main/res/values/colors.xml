@@ -8,6 +8,4 @@
     <color name="text_secondary_dark">@color/color_secondary</color>
     <color name="text_primary_light">@color/color_accent</color>
     <color name="text_secondary_light">@android:color/secondary_text_light</color>
-
-    <color name="gesture_highlight">#CD00BFFF</color>
 </resources>

@@ -1,8 +1,9 @@
 <resources>
-
-    <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light">
-        <!-- Customize your theme here. -->
+        <item name="colorAccent">@color/color_accent</item>
+        <item name="colorPrimaryDark">@color/color_secondary</item>
+        <item name="colorPrimary">@color/color_primary</item>
+        <item name="android:textColorPrimary">@color/color_accent</item>
+        <item name="android:textColorSecondary">@android:color/secondary_text_light</item>
     </style>
-
 </resources>
