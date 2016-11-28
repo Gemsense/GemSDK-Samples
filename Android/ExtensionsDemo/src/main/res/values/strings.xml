@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">IoToggleDemo</string>
+    <string name="app_name">Extensions Demos</string>
     <string name="btn_reconnect">reconnect</string>
     <string name="tap_to_calibrate">Tap to calibrate</string>
     <string name="btn_about">Info</string>
