@@ -1,1 +1,1 @@
-include ':BasicDemo', ':GestureDemo', ':TwoGemsDemo'
+include ':BasicDemo', ':GestureDemo', ':TwoGemsDemo',  'ExtensionsDemo'

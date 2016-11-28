@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:padding="16dp"
+    >
+
+    <!--TOGGLE D0-->
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/d0_pin_toggle"
+            android:layout_gravity="center_vertical"
+            style="@style/TextAppearance.AppCompat.Large"
+            />
+
+        <Button android:id="@+id/toggle_d0"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:text="@string/toggle_d0"/>
+    </LinearLayout>
+
+    <!--Divider-->
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@color/color_accent" />
+
+    <!--READ D1-->
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button android:id="@+id/read_d1"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:text="@string/read_d1"/>
+
+        <TextView android:id="@+id/val_d1"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="None"
+            android:gravity="right"
+            android:layout_gravity="center_vertical"
+            style="@style/TextAppearance.AppCompat.Large"
+            />
+    </LinearLayout>
+
+    <!--Divider-->
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@color/color_accent" />
+
+    <!--READ A0-->
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button android:id="@+id/read_a0"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:text="@string/read_a0"/>
+
+        <TextView android:id="@+id/val_a0"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="None"
+            android:gravity="right"
+            android:layout_gravity="center_vertical"
+            style="@style/TextAppearance.AppCompat.Large"
+            />
+    </LinearLayout>
+
+    <!--Divider-->
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@color/color_accent" />
+
+    <!--Write PWM A0-->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/write_pwm"
+        android:gravity="center"
+        android:layout_gravity="center_vertical"
+        style="@style/TextAppearance.AppCompat.Large"
+        />
+
+    <LinearLayout
+        android:paddingTop="24dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <SeekBar android:id="@+id/pwm_bar"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_gravity="center_vertical"
+            android:layout_height="wrap_content"
+            android:max="360" />
+
+        <TextView android:id="@+id/pwm_val"
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:text="0V"
+            android:gravity="right"
+            android:layout_gravity="center_vertical"
+            style="@style/TextAppearance.AppCompat.Large"
+            />
+    </LinearLayout>
+
+    <Button android:id="@+id/disable_pwm"
+        android:layout_marginTop="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:text="@string/disable_pwm"/>
+
+</LinearLayout>

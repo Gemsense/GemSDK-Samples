@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Android.iml" filepath="$PROJECT_DIR$/Android.iml" />
       <module fileurl="file://$PROJECT_DIR$/BasicDemo/BasicDemo.iml" filepath="$PROJECT_DIR$/BasicDemo/BasicDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ExtensionsDemo/ExtensionsDemo.iml" filepath="$PROJECT_DIR$/ExtensionsDemo/ExtensionsDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/GestureDemo/GestureDemo.iml" filepath="$PROJECT_DIR$/GestureDemo/GestureDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/TwoGemsDemo/TwoGemsDemo.iml" filepath="$PROJECT_DIR$/TwoGemsDemo/TwoGemsDemo.iml" />
     </modules>
